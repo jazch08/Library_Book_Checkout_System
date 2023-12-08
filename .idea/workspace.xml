@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5d48c9cf-b65b-4fb1-a0ac-b572f632a8a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/joraazam/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joraazam/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/joraazam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joraazam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/joraazam/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joraazam/Prestamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/joraazam/SistemaBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joraazam/SistemaBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/joraazam/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/joraazam/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/joraazam/LibroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/joraazam/LibroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/joraazam/PrestamoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/joraazam/PrestamoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/joraazam/SistemaBibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/joraazam/SistemaBibliotecaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/joraazam/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/joraazam/UsuarioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -42,10 +54,10 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/Jaaro/OneDrive/Escritorio/Universidad/Ing2/talleres/Library_Book_Checkout_System",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39310345",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -61,11 +73,16 @@
       <recent name="org.joraazam" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Library_Book_Checkout_System">
-    <configuration name="All in Library_Book_Checkout_System (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.joraazam.Main" />
       <module name="Library_Book_Checkout_System" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.joraazam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +110,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibroTest.testGetAutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library_Book_Checkout_System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.joraazam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.joraazam" />
+      <option name="MAIN_CLASS_NAME" value="org.joraazam.LibroTest" />
+      <option name="METHOD_NAME" value="testGetAutor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibroTest.testGetTitulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library_Book_Checkout_System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.joraazam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.joraazam" />
+      <option name="MAIN_CLASS_NAME" value="org.joraazam.LibroTest" />
+      <option name="METHOD_NAME" value="testGetTitulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Library_Book_Checkout_System" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LibroTest.testGetAutor" />
         <item itemvalue="JUnit.LibroTest" />
-        <item itemvalue="JUnit.All in Library_Book_Checkout_System (1)" />
+        <item itemvalue="JUnit.LibroTest.testGetTitulo" />
+        <item itemvalue="JUnit.All in Library_Book_Checkout_System" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +162,9 @@
       <updated>1701952781195</updated>
       <workItem from="1701952789822" duration="1407000" />
       <workItem from="1701954220696" duration="3450000" />
-      <workItem from="1701970926357" duration="2229000" />
+      <workItem from="1701970926357" duration="8347000" />
+      <workItem from="1701998188940" duration="245000" />
+      <workItem from="1701998453116" duration="14413000" />
     </task>
     <servers />
   </component>
@@ -128,6 +181,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Library_Book_Checkout_System$All_in_Library_Book_Checkout_System.ic" NAME="All in Library_Book_Checkout_System Coverage Results" MODIFIED="1701972729416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
